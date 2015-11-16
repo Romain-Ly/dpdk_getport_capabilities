@@ -16,8 +16,8 @@ APP = getport_capabilities
 SRCS-y := src/main.c
 SRCS-y += src/getport_capabilities.c
 
-SRCS-y += $(RTE_SRCDIR)/../getflags_name/src/getflags_name.c
-CFLAGS += -I$(RTE_SRCDIR)/../getflags_name/include
+SRCS-y += $(RTE_SRCDIR)/../dpdk_getflags_name/src/getflags_name.c
+CFLAGS += -I$(RTE_SRCDIR)/../dpdk_getflags_name/include
 
 
 
